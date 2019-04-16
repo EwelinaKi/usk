@@ -1,0 +1,20 @@
+.banner {
+    background-image: url("../../static/images/keyboard-bcg.jpg");
+    background-origin: border-box;
+    background-size: contain;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+
+.phrases {
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 50%;
+
+    font-family: Lora;
+    font-size: x-large;
+}
+
