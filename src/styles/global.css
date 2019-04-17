@@ -1,1 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed|Shadows+Into+Light');
+
+body{
+    background-image: url("../../static/images/paper-bcg.png");
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

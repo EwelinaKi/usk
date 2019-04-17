@@ -10,6 +10,6 @@ export default ({ children }) => (
     <div className="mainContainer">
      {children}
     </div>
-    {/*<Footer/>*/}
+    <Footer/>
   </div>
 )
