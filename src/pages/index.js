@@ -1,8 +1,9 @@
 import React from "react"
-import 'bootstrap/dist/css/bootstrap.css'
-import { Row, Col, Button, Carousel, Card} from "react-bootstrap"
+import "bootstrap/dist/css/bootstrap.css"
+import { Button, Card, Carousel, Col, Row } from "react-bootstrap"
 
 import Layout from "../components/layout"
+import Banner from "../components/banner"
 import indexStyles from "../styles/index.module.css"
 import planeImg from "../../static/images/plane.jpg"
 import aw1Img from "../../static/images/aw1.png"
@@ -14,9 +15,7 @@ import girlImg from "../../static/images/girl.jpg"
 export default () => (
 
   <Layout>
-    <div className={indexStyles.banner}>
-      {/*<p className={indexStyles.phrases}>What a world.</p>*/}
-    </div>
+    <Banner/>
 
     <div className={indexStyles.features}>
       <p>Stress pad <span>the main area, strong and resistant to pressure, acid and flames</span></p>

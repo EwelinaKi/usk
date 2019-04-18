@@ -1,21 +1,4 @@
-.banner {
-    background-image: url("../../static/images/keyboard-bcg.jpg");
-    background-origin: border-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: calc(100vw / 2.4);
-}
 
-/*.phrases {*/
-    /*position: absolute;*/
-    /*text-align: center;*/
-    /*top: calc( 40vw);*/
-    /*left: 50%;*/
-
-    /*font-family: Lora;*/
-    /*font-size: x-large;*/
-/*}*/
 
 span {
     font-family:  "Roboto Condensed", serif;
@@ -29,13 +12,10 @@ span {
     text-align: center;
     font-family: "Shadows Into Light", serif;
     font-size: calc(100vw / 20);
+    text-shadow: 1px 1px 1px gray;
 }
 
 p {
-    transition: color 1s;
-}
-p:hover {
-    color: #65D2D1;
     transition: color 1s;
 }
 
