@@ -1,0 +1,9 @@
+.features {
+    max-width: 900px;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Roboto Condensed", serif;
+    font-size: calc(100vw / 20);
+    text-shadow: 1px 1px 1px gray;
+}

@@ -1,0 +1,28 @@
+.awards {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.planeImg {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.awardImg {
+    height: 50%;
+    margin: 12% auto;
+    transition: height 1s;
+}
+
+.awardImg:hover {
+    height: 55%;
+    margin: 12% auto;
+    transition: height 1s;
+}
+
+.awardCard, h2 {
+    font-family: "Roboto Condensed", serif;
+    padding: 0;
+    text-align: center;
+}

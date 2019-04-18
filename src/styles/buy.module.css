@@ -1,0 +1,12 @@
+.buy p {
+    font-family: "Roboto Condensed", Serif;
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+    margin: 20% auto;
+}
+
+.buyButton {
+    margin: 10px auto 20px auto;
+    width: 200px;
+}
