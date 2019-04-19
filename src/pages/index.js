@@ -15,14 +15,19 @@ export default ({ data }) => (
     <Banner/>
       <Features/>
       <Keyboard/>
-      <Box recommendations={data}/>
-      <Awards/>
+    <Box recommendations={data.recommendations}/>
+    <Awards
+      planeImg={data.planeImg.childImageSharp}
+      award1={data.award1.childImageSharp}
+      award2={data.award2.childImageSharp}
+      award3={data.award3.childImageSharp}
+    />
   </Layout>
 )
 
 export const query = graphql`
     query {
-        allRecommendationsJson {
+        recommendations: allRecommendationsJson {
             nodes {
                 id
                 name
@@ -31,5 +36,66 @@ export const query = graphql`
                 rate
             }
         }
+        planeImg: file(relativePath: { eq: "plane.jpg" }) {
+            childImageSharp {
+                fluid (maxWidth: 500){
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    presentationWidth
+                    presentationHeight
+                }
+            }
+        }
+        award1: file(relativePath: { eq: "aw1.png" }) {
+            childImageSharp {
+                fluid (maxWidth: 200){
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    presentationWidth
+                    presentationHeight
+                }
+            }
+        }
+        award2: file(relativePath: { eq: "aw2.png" }) {
+            childImageSharp {
+                fluid (maxWidth: 200){
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    presentationWidth
+                    presentationHeight
+                }
+            }
+        }
+        award3: file(relativePath: { eq: "aw3.png" }) {
+            childImageSharp {
+                fluid (maxWidth: 200){
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    presentationWidth
+                    presentationHeight
+                }
+            }
+        }
+        
     }
 `

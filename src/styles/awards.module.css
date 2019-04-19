@@ -10,13 +10,9 @@
 }
 
 .awardImg {
-    height: 50%;
-    margin: 12% auto;
-    transition: height 1s;
-}
-
-.awardImg:hover {
-    height: 55%;
+    /*height: 50%;*/
+    height: 200px;
+    width: 200px;
     margin: 12% auto;
     transition: height 1s;
 }
