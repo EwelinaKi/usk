@@ -53,7 +53,7 @@ export const query = graphql`
         }
         award1: file(relativePath: { eq: "aw1.png" }) {
             childImageSharp {
-                fluid (maxWidth: 200){
+                fluid (maxWidth: 300){
                     base64
                     tracedSVG
                     aspectRatio
@@ -68,7 +68,7 @@ export const query = graphql`
         }
         award2: file(relativePath: { eq: "aw2.png" }) {
             childImageSharp {
-                fluid (maxWidth: 200){
+                fluid (maxWidth: 300){
                     base64
                     tracedSVG
                     aspectRatio
@@ -83,7 +83,7 @@ export const query = graphql`
         }
         award3: file(relativePath: { eq: "aw3.png" }) {
             childImageSharp {
-                fluid (maxWidth: 200){
+                fluid (maxWidth: 300){
                     base64
                     tracedSVG
                     aspectRatio

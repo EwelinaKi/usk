@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed|Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
+
+
+:root {
+    --blue-mid: #9cc3d8;
+    --blue-light: #cef6ff;
+    --blue-dark: #6c93a7;
+    --purple-mid: #d6a6df;
+    --purple-light: #ffd8ff;
+    --purple-dark: #a477ad;
+    --background-dark: #000;
+    --background-mid: #000;
+    --text-light: #FFF;
+    --font-main: "Montserrat", serif;
+    --font-decor: "Roboto Condensed", serif;
+    --shaddow: 1px 1px 1px gray;
+}
 
 body{
     background-image: url("../../static/images/paper-bcg.png");
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+p, h1, h2, h3, h4, h5 {
+    font-family: var(--font-main);
 }

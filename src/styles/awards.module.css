@@ -1,24 +1,36 @@
-.awards {
-    width: 100vw;
+.awardSection {
+    display: flex;
+    height: auto;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    font-size: 40px;
+    font-family: var(--font-decor);
+    text-transform: uppercase;
+    padding: 10px;
     margin: 0;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 
-.planeImg {
-    max-width: 100%;
-    object-fit: contain;
+.awardCol {
+    display: flex;
+    flex-direction: column;
 }
 
 .awardImg {
-    /*height: 50%;*/
-    height: 200px;
-    width: 200px;
-    margin: 12% auto;
-    transition: height 1s;
+    width: 70%;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 40px auto auto auto;
 }
 
-.awardCard, h2 {
-    font-family: "Roboto Condensed", serif;
-    padding: 0;
+.awardCard {
+    margin: auto;
+    padding: 20px 10px;
     text-align: center;
+}
+
+.awardName {
+    text-shadow: var(--shaddow);
+    font-size: x-large;
 }
