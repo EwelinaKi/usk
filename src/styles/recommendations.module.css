@@ -1,4 +1,18 @@
-.carouselBox {
-    width: 20rem;
-    margin: 4% auto;
+.cardAll {
+    margin: 20px auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.cardImg {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 10px solid var(--blue-dark);
+    margin: auto;
+}
+
+.cardText {
+    text-align: justify;
 }

@@ -1,9 +1,9 @@
 .buy {
-    background-color: #f2cac9;
+    background-color: var(--purple-mid);
     height: auto;
 }
 
 .recommendations {
-    background-color: #9dd2cb;
+    background-color: var(--blue-mid);
     height: auto;
 }

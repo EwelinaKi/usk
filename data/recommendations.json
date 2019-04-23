@@ -3,18 +3,18 @@
     "name": "Betty Spark",
     "rate": "⭐⭐⭐⭐⭐",
     "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
-    "image": ""
+    "image": "awatar1.jpg"
   },
   {
     "name": "Mark Twain",
     "rate": "⭐⭐⭐⭐⭐",
     "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
-    "image": ""
+    "image": "awatar2.jpeg"
   },
   {
-    "name": "Dolores Umbrdige",
+    "name": "Myrton Grunwald",
     "rate": "⭐⭐⭐⭐",
     "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
-    "image": ""
+    "image": "awatar3.jpg"
   }
 ]

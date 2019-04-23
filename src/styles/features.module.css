@@ -20,6 +20,7 @@
 
 .featureName {
     font-size: xx-large;
+    font-family: var(--font-decor);
     text-shadow: var(--shaddow);
     min-width: 300px;
     min-height: 40px;
@@ -34,6 +35,6 @@
     text-align: center;
 }
 
-.featureName p, .featureDesc p {
-    margin: 0;
+.featureName p {
+    font-family: var(--font-decor);
 }
