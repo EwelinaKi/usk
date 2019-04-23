@@ -50,8 +50,7 @@ export const query = graphql`
                     tracedSVG
                     aspectRatio
                     src
-                    srcWebp
-                    srcSetWebp
+                    srcSet
                     sizes
                     presentationWidth
                     presentationHeight
@@ -65,8 +64,7 @@ export const query = graphql`
                     tracedSVG
                     aspectRatio
                     src
-                    srcWebp
-                    srcSetWebp
+                    srcSet
                     sizes
                     presentationWidth
                     presentationHeight
@@ -80,8 +78,7 @@ export const query = graphql`
                     tracedSVG
                     aspectRatio
                     src
-                    srcWebp
-                    srcSetWebp
+                    srcSet
                     sizes
                     presentationWidth
                     presentationHeight
@@ -95,8 +92,7 @@ export const query = graphql`
                     tracedSVG
                     aspectRatio
                     src
-                    srcWebp
-                    srcSetWebp
+                    srcSet
                     sizes
                     presentationWidth
                     presentationHeight
@@ -110,8 +106,7 @@ export const query = graphql`
                     tracedSVG
                     aspectRatio
                     src
-                    srcWebp
-                    srcSetWebp
+                    srcSet
                     sizes
                     presentationWidth
                     presentationHeight
