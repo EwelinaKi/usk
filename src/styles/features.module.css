@@ -1,9 +1,39 @@
-.features {
-    max-width: 900px;
+.featuresSection {
     margin: 1rem auto;
-    padding: 1rem;
     text-align: center;
-    font-family: "Roboto Condensed", serif;
     font-size: calc(100vw / 20);
-    text-shadow: 1px 1px 1px gray;
+}
+
+.featureRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    margin: 70px;
+}
+
+.featureName, .featureDesc {
+    margin: 0;
+    padding: auto;
+}
+
+.featureName {
+    font-size: xx-large;
+    text-shadow: var(--shaddow);
+    min-width: 300px;
+    min-height: 40px;
+    align-self: center;
+}
+
+.featureDesc {
+    font-size: x-large;
+    font-weight: lighter;
+    width: 500px;
+    align-self: center;
+    text-align: center;
+}
+
+.featureName p, .featureDesc p {
+    margin: 0;
 }

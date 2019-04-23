@@ -13,7 +13,7 @@ export default ({ data }) => (
 
   <Layout>
     <Banner/>
-      <Features/>
+      <Features features={data.features}/>
       <Keyboard/>
     <Box recommendations={data.recommendations}/>
     <Awards
@@ -34,6 +34,13 @@ export const query = graphql`
                 opinion
                 image
                 rate
+            }
+        }
+        features: allTextJson {
+            nodes{
+                id
+                feature
+                description
             }
         }
         planeImg: file(relativePath: { eq: "plane.jpg" }) {
@@ -96,6 +103,6 @@ export const query = graphql`
                 }
             }
         }
-        
+
     }
 `
