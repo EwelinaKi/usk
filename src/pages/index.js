@@ -12,7 +12,7 @@ import Awards from "../components/awards"
 export default ({ data }) => (
 
   <Layout>
-    <Banner/>
+    <Banner keyboardImg={data.keyboardImg.childImageSharp}/>
       <Features features={data.features}/>
       <Keyboard/>
     <Box recommendations={data.recommendations}/>
@@ -41,6 +41,21 @@ export const query = graphql`
                 id
                 feature
                 description
+            }
+        }
+        keyboardImg: file(relativePath: { eq: "keyboard.png" }) {
+            childImageSharp {
+                fluid (maxWidth: 800){
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    presentationWidth
+                    presentationHeight
+                }
             }
         }
         planeImg: file(relativePath: { eq: "plane.jpg" }) {
@@ -103,6 +118,5 @@ export const query = graphql`
                 }
             }
         }
-
     }
 `
