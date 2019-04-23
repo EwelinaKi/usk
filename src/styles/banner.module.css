@@ -25,11 +25,13 @@
     font-family: var(--font-decor);
     font-size: calc(100vw / 15);
     color: var(--text-light);
+    /*color: var(--purple-light);*/
     text-shadow: var(--shaddow);
     white-space: nowrap;
 
     opacity: 0;
-    background-color: var(--purple-dark);
+    background-color: var(--purple-mid);
+    /*background-color: #a477ad00;*/
     box-shadow: var(--shaddow);
 
     animation: topToBottom 12.5s linear infinite 0s;
