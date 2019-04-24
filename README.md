@@ -12,7 +12,7 @@ A cool RWD site for Ultimate Scala Keyboard.
 
 #### Deploy
 
-You can see deployed site [here](https://app.netlify.com/sites/pedantic-poincare-76783e/deploys).
+You can see deployed site [here](https://pedantic-poincare-76783e.netlify.com).
 
 #### Run locally
 
