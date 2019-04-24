@@ -8,7 +8,11 @@ export default (props) => (
       (
         <Carousel.Item key={recommendation.id}>
           <Card style={{ width: "20rem" }} className={recommendationStyles.cardAll}>
-            <Card.Img variant="top" src={"images/" + recommendation.image} className={recommendationStyles.cardImg}/>
+            <Card.Img
+              variant="top"
+              src={"images/" + recommendation.image}
+              className={recommendationStyles.cardImg}
+              alt={"photo of " + recommendation.name}/>
             <Card.Body>
               <Card.Title>{recommendation.name}</Card.Title>
               <span role="img" aria-label="rate">{recommendation.rate}</span>
