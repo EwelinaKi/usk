@@ -1,5 +1,8 @@
 module.exports = {
-  siteMetadata: { title: `Ultimate Scala Keyboard` },
+  siteMetadata: {
+    title: "Ultimate Scala Keyboard",
+    description: "This is a website about coolest world keyboard : Ultimate Scala Keyboard. Buy it, enjoy it!",
+  },
   plugins: [
     {
       resolve: "gatsby-source-filesystem",

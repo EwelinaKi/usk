@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import SEO from "../components/SEO"
 import Banner from "../components/banner"
 import Features from "../components/features"
 import Box from "../components/box"
@@ -12,6 +13,7 @@ import Awards from "../components/awards"
 export default ({ data }) => (
 
   <Layout>
+    <SEO/>
     <Banner keyboardImg={data.keyboardImg.childImageSharp}/>
       <Features features={data.features}/>
       <Keyboard/>

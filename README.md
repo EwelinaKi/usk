@@ -24,7 +24,7 @@ To run locally first install npm packages with `nmp instal` then run `gatsby dev
 - [] add about me
 - [] change links
 - [] fix accessibility
-- [] fix SEO
+- [x] fix SEO
 
 #### Screenshots
 
