@@ -7,7 +7,6 @@ export default () => (
     <p>Oooh! Don't waste your time any more, we all know you want it!</p>
     <div className={buyStyles.buyButton}>
       <Button size="lg" type="button" className={buyStyles.buyButton} id="buyButton">Buy</Button>
-      {/*<button type="button" className={"btn " + buyStyles.newPrimary}>Buy</button>*/}
     </div>
   </div>
 )

@@ -25,6 +25,11 @@
     min-width: 300px;
     min-height: 40px;
     align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .featureDesc {
@@ -37,4 +42,20 @@
 
 .featureName p {
     font-family: var(--font-decor);
+}
+
+.featureDecor {
+    display: inline;
+    height: 0;
+    width: 0;
+    z-index: -1;
+    margin-right: 5px;
+
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 7px;
+    border-top-color: var(--purple-mid);
+    border-left-color: var(--purple-dark);
+    border-right-color: var(--blue-dark);
+    border-bottom-color: var(--blue-mid);
 }

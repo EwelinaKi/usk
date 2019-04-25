@@ -8,7 +8,9 @@ export default (props) => {
         (
           <div key={element.id} className={featuresStyles.featureRow}>
             <div className={featuresStyles.featureName}>
-              <p>{element.feature}</p></div>
+              <p className={featuresStyles.featureDecor}></p>
+              <p>
+                {element.feature}</p></div>
             <div className={featuresStyles.featureDesc}>
               <p>{element.description}</p></div>
           </div>
