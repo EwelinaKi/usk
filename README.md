@@ -16,7 +16,7 @@ You can see deployed site [here](https://pedantic-poincare-76783e.netlify.com).
 
 #### Run locally
 
-To run locally first install npm packages with `nmp instal` then run `gatsby develop`.
+To run locally first install npm packages with `npm install` then run `gatsby develop`.
 
 #### Todo
 
