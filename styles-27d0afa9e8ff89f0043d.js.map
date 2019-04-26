@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/styles/main.module.css"],"names":["module","exports","banner"],"mappings":"mGACAA,EAAAC,QAAA,CAAkBC,OAAA","file":"styles-27d0afa9e8ff89f0043d.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"banner\":\"main-module--banner--3Ft3V\"};"],"sourceRoot":""}
