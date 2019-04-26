@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
@@ -29,6 +30,7 @@
     "react-magnifier": "^3.0.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.17.0"
   },
   "repository": {
