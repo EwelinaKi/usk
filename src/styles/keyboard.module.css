@@ -1,5 +1,6 @@
 .keyboard {
-    height: 80vh;
+    height: auto;
     background-color: black;
     color: white;
+    padding: 10%;
 }

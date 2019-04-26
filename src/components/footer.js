@@ -29,6 +29,11 @@ export default () => (
                              href="https://www.pexels.com/photo/apple-background-desk-electronics-399161/"
                              className={footerStyles.link}>
         Lum3n.com</a>
+        <br/>
+        Very complicated formula <a rel="nofollow"
+                                    href="http://www.luigip.com/?p=200"
+                                    className={footerStyles.link}>
+        Luigip.com</a>
       </Col>
     </Row>
   </div>

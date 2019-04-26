@@ -20,10 +20,10 @@ To run locally first install npm packages with `nmp instal` then run `gatsby dev
 
 #### Todo
 
-- [] add keyboard image
+- [x] add keyboard image
 - [] add about me
 - [] change links
-- [] fix accessibility
+- [x] fix accessibility
 - [x] fix SEO
 
 #### Screenshots
