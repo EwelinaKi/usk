@@ -8,12 +8,12 @@ export default () => (
       <Col>
         <h5>My</h5>
         <a href="https://github.com/EwelinaKi" className={footerStyles.link}>
-          <img src="/usk/svg/github.svg" alt="github logo" className={footerStyles.svgLogo}/>
+          <img src="/svg/github.svg" alt="github logo" className={footerStyles.svgLogo}/>
           Github
         </a>
         <br/>
         <a href="https://www.linkedin.com/in/ewelinakijanowska/" className={footerStyles.link}>
-          <img src="/usk/svg/li.svg" alt="linkedin logo" className={footerStyles.svgLogo}/>
+          <img src="/svg/li.svg" alt="linkedin logo" className={footerStyles.svgLogo}/>
           LinkedIn
         </a>
       </Col>
