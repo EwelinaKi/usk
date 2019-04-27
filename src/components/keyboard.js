@@ -8,6 +8,7 @@ export default () => (
     <Magnifier
       src={keyboard}
       width={"100%"}
-      mgShowOverflow={false}/>
+      mgShowOverflow={false}
+      alt="Ultimate Scala Keyboard big photo"/>
   </div>
 )

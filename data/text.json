@@ -1,10 +1,14 @@
 [
   {
+    "feature": "Tailored",
+    "description": "contains only needed keys, no fluff, no distraction"
+  },
+  {
     "feature": "Stress pad",
     "description": "the main area, strong and resistant to pressure, acid and flames"
   },
   {
-    "feature": "Circle mode",
+    "feature": "Circe mode",
     "description": "additional stress pad"
   },
   {
@@ -14,9 +18,5 @@
   {
     "feature": "Extraordinary",
     "description": "for the extraordinary masters of the universe"
-  },
-  {
-    "feature": "Tailored",
-    "description": "contains only needed keys, no fluff, no distraction"
   }
 ]
