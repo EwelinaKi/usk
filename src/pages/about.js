@@ -36,7 +36,8 @@ export default () => (
           a11y.</p>
         <p>I treated this site as a pet project to get a better understanding what Gatsby could be useful for and am
           quite satisfied. Among the assets I enjoyed most are loading images dependant on the screen size, seamless
-          integration with GrapQL and an easy to grasp project structure enabling routing without any additional code as
+          integration with GraphQL and an easy to grasp project structure enabling routing without any additional code
+          as
           well as a modular way of building a website built on React components, to name just a few.</p>
         <p>It's hosted on
           <span> <a rel="nofollow"

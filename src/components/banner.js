@@ -10,11 +10,11 @@ export default (props) => (
       alt="scala keyboard"
       className={bannerStyles.bannerImg}/>
     <div className={bannerStyles.phrases}>
-      <p>Stress pad</p>
-      <p>Lightened</p>
-      <p>Extraordinary</p>
-      <p>Tailored</p>
-      <p>Perfect</p>
+      {props.features.nodes.map(element =>
+        (
+          <p key={element.id}>{element.feature}</p>
+        ),
+      )}
     </div>
   </div>
 )

@@ -2,19 +2,19 @@
   {
     "name": "Betty Spark",
     "rate": "⭐⭐⭐⭐⭐",
-    "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
+    "opinion": "\"Writing a scala library by typing random keys couldn’t be easier. With the Ultimate Scala Keyboard I create new libs on a daily basis. Bringing the hell of infinite JavaScript packages into the Scala world is a real joy.\"",
     "image": "awatar1.jpg"
   },
   {
     "name": "Mark Twain",
     "rate": "⭐⭐⭐⭐⭐",
-    "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
+    "opinion": "\"Scala is dead? I thought so, too. But I gave it another try with the Ultimate Scala Keyboard. It turned out, that regular keyboards with all the unnecessary keys have distracted me so much, I literally couldn’t see the wood for the keys.\"",
     "image": "awatar2.jpeg"
   },
   {
     "name": "Myrton Grunwald",
     "rate": "⭐⭐⭐⭐",
-    "opinion": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.\"",
+    "opinion": "\"You can’t call yourself a Scala developer without the Ultimate Scala Keyboard. Especially the sliding stress pad makes me feel relieved. From now on I write Circe encoders and decoders only in Circe mode.\"",
     "image": "awatar3.jpg"
   }
 ]

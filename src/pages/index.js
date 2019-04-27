@@ -14,7 +14,9 @@ export default ({ data }) => (
 
   <Layout>
     <SEO/>
-    <Banner keyboardImg={data.keyboardImg.childImageSharp}/>
+    <Banner
+      keyboardImg={data.keyboardImg.childImageSharp}
+      features={data.features}/>
       <Features features={data.features}/>
       <Keyboard/>
     <Box recommendations={data.recommendations}/>
