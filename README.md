@@ -21,13 +21,18 @@ To run locally first install npm packages with `npm install` then run `gatsby de
 #### Todo
 
 - [x] add keyboard image
-- [] add about me
-- [] change links
+- [x] add about me
+- [x] change links
 - [x] fix accessibility
 - [x] fix SEO
 
 #### Screenshots
 
-![Desktop version](/screenshots/screen_desktop.png)
-![Mobile version](/screenshots/srceen_mobile.png)
+Desktop version:
+
+![Desktop version](/screenshots/screen_desktop.jpg)
+
+Mobile version:
+
+![Mobile version](/screenshots/srceen_mobile.jpg)
 

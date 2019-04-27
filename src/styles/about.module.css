@@ -1,0 +1,19 @@
+.aboutBox {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.aboutBox h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aboutText {
+    margin: 50px 20px;
+    text-align: justify;
+}
+
+.aboutLink {
+    color: var(--blue-dark);
+    text-decoration: none !important;
+}
